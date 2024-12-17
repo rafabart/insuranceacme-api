@@ -30,7 +30,7 @@ public class InsuranceQuoteConsumer {
         try {
             log.info("InsuranceQuoteConsumer.received= {}", event);
             insuranceQuoteService.update(event);
-        } catch (Exception e) {
+        } catch (RuntimeException e) {
             throw e;
         }
 

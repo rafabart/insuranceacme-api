@@ -2,7 +2,6 @@ package br.com.insuranceacme.insuranceacme_api.domain.event;
 
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import jakarta.validation.constraints.NotNull;
 import lombok.*;
 import org.springframework.data.annotation.Id;
 
