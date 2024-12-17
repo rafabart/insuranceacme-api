@@ -25,7 +25,7 @@ Para rodar a api utilize o comando abaixo na raiz do projeto:
 ```./gradlew bootRun```
 
 ### Acessar serviços do docker:
-[Kafdrop](http://localhost:19000/) - permite visualizar as mensagem nos tópicos kafka
+[Kafdrop](http://localhost:19000/) - permite visualizar as mensagem nos tópicos kafka   
 [Mongo Express](http://localhost:8091/db/insurance/) - permite visualizar dos dados na base mongo
 OBS: Para acessar usar o user: "admin"; e a senha "1234"
 
